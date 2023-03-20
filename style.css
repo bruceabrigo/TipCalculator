@@ -1,0 +1,28 @@
+body {
+    background-color: #293241;
+}
+.card {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55%;
+    width: 65%;
+    border-radius: 20px;
+    padding: 40px;
+}
+.left {
+    width: 45%;
+    float: left;
+}
+.right {
+    width: 45%;
+    float: right;
+    background-color: #3d5a80;
+    height: 100%;
+    border-radius: 20px;
+}
+.input-field {
+    width: 100%;
+}
