@@ -19,17 +19,17 @@
         <div class="left">
             <div class="box">
                 Bill
-                <input type="text" placeholder="$" class="input-field" >
+                <input type="text" placeholder="$" class="input-field" id="checkAmount">
             </div>
             <div class="box">
                 Select Tip %
                 <div class="btns-field">
-                    <div class="btn">5%</div>
-                    <div class="btn">10%</div>
-                    <div class="btn">15%</div>
-                    <div class="btn">25%</div>
-                    <div class="btn">50%</div>
-                    <div class="btn">Custom</div>
+                    <div class="btn" onclick="fivePercent()">5%</div>
+                    <div class="btn" onclick="tenPercent()">10%</div>
+                    <div class="btn" onclick="fifteenPercent()">15%</div>
+                    <div class="btn" onclick="twnetyFivePercent()">25%</div>
+                    <div class="btn" onclick="fiftyPercent()">50%</div>
+                    <input type="text" placeholder="$" class="btn" id="customTip" onclick="customPercent()">
                 </div>
             </div>
             <div class="box">
@@ -52,5 +52,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+    <script src="app.js"></script>
 </body>
 </html>
