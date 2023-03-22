@@ -29,22 +29,30 @@
                     <div class="btn" onclick="fifteenPercent()">15%</div>
                     <div class="btn" onclick="twnetyFivePercent()">25%</div>
                     <div class="btn" onclick="fiftyPercent()">50%</div>
-                    <input type="text" placeholder="$" class="btn" id="customTip" onclick="customPercent()">
+                    <input type="text" placeholder="$" class="btn" id="customTip">
                 </div>
             </div>
             <div class="box">
                 Number of People
-                <input type="text" placeholder="" class="input-field" >
+                <input type="text" placeholder="Number of people" class="input-field" id="numberPpl">
             </div>
         </div>
         <div class="right">
-            Tip Amount
-            / person
-        
-            Total
-            / person
-        
-            Reset
+            <div class="tip-output">
+                <div class="tip-amount">
+                    Tip Amount
+                    <br>
+                    / person
+                    <p id="tip-total">$0.00</p>
+                </div>
+                <div class="tip-amount">
+                    Total
+                    <br>
+                    / person
+                    Reset
+                    <p id="person-total">$0.00</p>
+                </div>
+            </div>
         </div>    
     </div>
   

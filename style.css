@@ -53,3 +53,12 @@ body {
 .box {
     height: 30%;
 }
+.tip-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tip-output {
+    padding: 45px 25px;
+    color: white;
+}
